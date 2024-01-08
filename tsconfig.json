@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+	  "removeComments": true,
+	  "rootDir": "./",
+	  "declarationMap": true,
+	  "outDir": "./dist/",
+	  "module": "esnext",
+	  "moduleResolution": "node",
+	  "baseUrl": "./src",
+	  "paths": {
+		  "*": ["node_modules/*"]
+	  },
+	  "target": "es5",
+	  "lib": ["es5", "es6", "es7", "es2017", "dom", "dom.iterable", "esnext"],
+	  "jsx": "react-jsx",
+	  "sourceMap": true,
+	  "allowJs": false,
+	  "forceConsistentCasingInFileNames": true,
+	  "noImplicitReturns": true,
+	  "noImplicitThis": true,
+	  "noImplicitAny": true,
+	  "strictNullChecks": true,
+	  "noUnusedLocals": true,
+	  "declaration": true,
+	  "allowSyntheticDefaultImports": true,
+	  "experimentalDecorators": true,
+	  "resolveJsonModule": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "strict": true,
+	  "noFallthroughCasesInSwitch": true,
+	  "isolatedModules": true,
+	  "noEmit": true
+	},
+	"include": ["**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules", "generator", "dist", "coverage", "storybook-static", "generators"]
+  }
+  
